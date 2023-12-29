@@ -4,6 +4,9 @@ import { RouterOutlet } from '@angular/router';
 import { MatMenuModule } from '@angular/material/menu';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
+import { HomeComponent } from './home/home.component';
+import { NavBarComponent } from './nav-bar/nav-bar.component';
+import { AboutComponent } from './about/about.component';
 
 @Component({
   selector: 'app-root',
@@ -13,7 +16,10 @@ import { MatIconModule } from '@angular/material/icon';
     RouterOutlet,
     MatMenuModule,
     MatButtonModule,
-    MatIconModule
+    MatIconModule,
+    HomeComponent,
+    NavBarComponent,
+    AboutComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
