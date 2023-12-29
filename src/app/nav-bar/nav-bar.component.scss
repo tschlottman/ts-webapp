@@ -1,3 +1,23 @@
 .button {
     color:white !important;
 }
+
+.nav-left {
+    float: left;
+    align-items: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.nav-right {
+    float: right;
+    align-items: center;
+}
+
+.logo {
+    width: 56px;
+    height: 56px;
+}

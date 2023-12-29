@@ -11,18 +11,25 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     position: sticky;
     top: 0;
     width: auto;
-    background-color: #3f51b5;
+    background-color: purple;
     color: #fff;
-    display: flex;
     padding: 0 16px;
-    align-items: center;
     height: 56px;
     font: 500 20px/32px Roboto, "Helvetica Neue", sans-serif;
 }
 
 .header {
-    background-color: tan;
+    background-color: lightskyblue;
     height: 500px;
     width: auto;
     text-align: center;
+}
+
+.body {
+    padding: 16px 32px;
+}
+
+.footer {
+    height: 250px;
+    width: auto;
 }

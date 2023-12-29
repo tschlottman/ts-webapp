@@ -7,6 +7,7 @@ import { MatIconModule } from '@angular/material/icon';
 import { HomeComponent } from './home/home.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { AboutComponent } from './about/about.component';
+import { ExperienceComponent } from './experience/experience.component';
 
 @Component({
   selector: 'app-root',
@@ -19,7 +20,8 @@ import { AboutComponent } from './about/about.component';
     MatIconModule,
     HomeComponent,
     NavBarComponent,
-    AboutComponent
+    AboutComponent,
+    ExperienceComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
