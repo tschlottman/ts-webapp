@@ -8,6 +8,7 @@ import { HomeComponent } from './home/home.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { AboutComponent } from './about/about.component';
 import { ExperienceComponent } from './experience/experience.component';
+import { CertsComponent } from './certs/certs.component';
 
 @Component({
   selector: 'app-root',
@@ -21,7 +22,8 @@ import { ExperienceComponent } from './experience/experience.component';
     HomeComponent,
     NavBarComponent,
     AboutComponent,
-    ExperienceComponent
+    ExperienceComponent,
+    CertsComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
