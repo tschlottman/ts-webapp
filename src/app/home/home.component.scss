@@ -1,0 +1,52 @@
+.day-background {
+    background-color: lightskyblue;
+    height: 50vw;
+    width: 100vw;
+}
+
+.night-background {
+    background-color: navy;
+    height: 50vw;
+    width: 100vw;
+    color: white;
+}
+
+.greeting {
+    font-size: 5vw;
+    text-align: center;
+    margin: auto;
+}
+
+.greeting p {
+    padding-top: 10%;
+}
+
+.arrow-img {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    font-size: 5vw;
+    padding: 5%;
+    animation: bounce-animation 2s infinite;
+}
+
+@keyframes bounce-animation {
+    0% {
+        bottom: 0;
+    }
+    50% {
+        bottom: 5%;
+    }
+    100% {
+        bottom: 0;
+    }
+}
+
+.day-night {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-size: 5vw;
+    padding: 5%;
+    color: yellow;
+}

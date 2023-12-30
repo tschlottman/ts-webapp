@@ -1,4 +1,17 @@
-<div>
-    <h1>Hello. My name is Timothy Schlottman</h1>
-    <h3>Software Engineer</h3>
+<div class="day-background" *ngIf='isDay'>
+    <div class="greeting">
+        <p>{{ tod }}</p>
+        <p>My name is Timothy Schlottman</p>
+    </div>
+    <mat-icon fontIcon="arrow_drop_down_circle" class="arrow-img"></mat-icon>
+    <mat-icon fontIcon="sunny" class="day-night"></mat-icon>
+</div>
+
+<div class="night-background" *ngIf='!isDay'>
+    <div class="greeting">
+        <p>{{ tod }}</p>
+        <p>My name is Timothy Schlottman</p>
+    </div>
+    <mat-icon fontIcon="arrow_drop_down_circle" class="arrow-img"></mat-icon>
+    <mat-icon fontIcon="dark_mode" class="day-night"></mat-icon>
 </div>

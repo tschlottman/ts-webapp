@@ -9,6 +9,7 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
 .nav-bar {
     position: sticky;
+    z-index: 1;
     top: 0;
     width: auto;
     background-color: purple;
@@ -19,10 +20,7 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 }
 
 .header {
-    background-color: lightskyblue;
-    height: 500px;
-    width: auto;
-    text-align: center;
+    
 }
 
 .app-body {
