@@ -11,12 +11,10 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     position: sticky;
     z-index: 1;
     top: 0;
-    width: auto;
+    width: 100vw;
     background-color: purple;
-    color: #fff;
-    padding: 0 16px;
-    height: 56px;
-    font: 500 20px/32px Roboto, "Helvetica Neue", sans-serif;
+    padding: 0 1vw;
+    height: 4vw;
 }
 
 .header {
