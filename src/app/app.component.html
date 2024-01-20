@@ -1,9 +1,9 @@
 <main class="main">
   <div class="nav-bar">
-    <app-nav-bar></app-nav-bar>
+    <app-nav-bar (idOut)="getId($event)"></app-nav-bar>
   </div>
-  <div  class="header">
-    <app-home></app-home>
+  <div class="header">
+    <app-home id="#home"></app-home>
   </div>  
   <div class="app-body">
     <app-about class="comp"></app-about>

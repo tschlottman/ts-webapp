@@ -1,11 +1,11 @@
 <div class="nav-bar">
     <nav>
       <div class="nav-left">
-        <button mat-button class="button">Home</button>
-        <button mat-button class="button">About</button>
-        <button mat-button class="button">Experience</button>
-        <button mat-button class="button">Certifications</button>
-        <button mat-button class="button">Contact</button>
+        <button mat-button class="button" (click)="navigate('home')">Home</button>
+        <button mat-button class="button" (click)="navigate('about')">About</button>
+        <button mat-button class="button" (click)="navigate('experience')">Experience</button>
+        <button mat-button class="button" (click)="navigate('certs')">Certifications</button>
+        <button mat-button class="button" (click)="navigate('contact')">Contact</button>
       </div>
 <div class="nav-right">
         <a href="https://www.linkedin.com/in/timothy-schlottman-650794a5/" target="_blank">

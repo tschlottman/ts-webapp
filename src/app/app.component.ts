@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Injectable, OnChanges, OnInit, SimpleChanges } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
 import { MatMenuModule } from '@angular/material/menu';
@@ -28,6 +28,19 @@ import { CertsComponent } from './certs/certs.component';
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
+
 export class AppComponent {
   title = 'ts-webapp';
+  id : any;
+
+  getId(navId : any) {
+    this.id = document.getElementById(navId);    
+    this.scroll(this.id);
+  }
+
+  scroll(el : HTMLElement) {
+    if(el) {
+      el.scrollIntoView({ behavior: 'smooth' });
+    }
+  }
 }

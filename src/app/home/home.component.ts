@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnChanges, OnInit, SimpleChanges } from '@angular/core';
 import { AppComponent } from '../app.component';
 import { MatIconModule } from '@angular/material/icon';
 import { CommonModule } from '@angular/common';
@@ -19,11 +19,15 @@ export class HomeComponent implements OnInit {
   today = new Date();
 
   ngOnInit(): void {
+    this.getToD()
+  }
+
+  getToD() {
     let hour = this.today.getHours();
     if (hour > 4 && hour < 11) {
       this.tod = 'Good Morning, '
       this.isDay = true;
-    } else if (hour > 11 && hour < 16) {
+    } else if (hour >= 11 && hour < 16) {
       this.tod = 'Good Afternoon, '
       this.isDay = true;
     } else {
